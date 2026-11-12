@@ -1,0 +1,12 @@
+[package]
+name = "mm-notebook"
+description = "A user-space virtual memory arena, SIGSEGV fault interceptor, and real-time memory access auditor."
+version = "0.1.0"
+edition = "2024"
+
+# Override the binary output name to 'mmnb'
+[[bin]]
+name = "mmnb"
+path = "src/main.rs"
+
+[dependencies]
