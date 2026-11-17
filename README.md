@@ -51,7 +51,7 @@ mm-notebook/
 
 ### Building from Source
 ```bash
-git clone [https://github.com/Aijazbir2010/mm-notebook.git](https://github.com/Aijazbir2010/mm-notebook.git)
+git clone https://github.com/Aijazbir2010/mm-notebook.git
 cd mm-notebook
 cargo build --release
 ```
